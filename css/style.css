@@ -1,14 +1,16 @@
 *{
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* IMPOSTAZIONE MENU */
 #main-header{
     position: fixed;
     top: 5%;
     right: 5%;
-    width: 13%;
+    width: 300px;
     height: 70px;
     background-color: aqua;
     line-height: 70px;
@@ -24,8 +26,6 @@
     display: inline-block;
 }
 
-
-
 li{
     background-color: blueviolet;
     height: 60px;
@@ -35,6 +35,28 @@ li{
     font-size: 25px;
     font-weight: bolder;
     text-align: center;
-    line-height: 55px;    
-}
+    line-height: 55px; 
+    margin-left: 30px;
+}   
+
+/* IMPOSTAZIONE BLOCCO SCARPE */
+.section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+   }
+
+#scarpa1{
+    background-color: red;
+  
+  }
+  
+  #scarpa2{
+    background-color: green;
+  }
+  
+  #scarpa3{
+    background-color: yellow;
+
 
