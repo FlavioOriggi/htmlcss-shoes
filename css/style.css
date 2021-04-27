@@ -6,8 +6,35 @@
 
 #main-header{
     position: fixed;
-    width: 30%;
-    height: 50px;
+    top: 5%;
+    right: 5%;
+    width: 13%;
+    height: 70px;
     background-color: aqua;
+    line-height: 70px;
+    text-align: center;
+}
+
+#main-header nav{
+    display: inline-block;
+    
+}
+
+#main-header li{
+    display: inline-block;
+}
+
+
+
+li{
+    background-color: blueviolet;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 55px;    
 }
 
